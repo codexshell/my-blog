@@ -11,7 +11,7 @@ const routes: Routes = [
     path: 'articles',
     loadChildren: () =>
       import('./feature/articles/articles.module').then(
-        (m) => m.ArticlesModule
+        (m) => m.ArticlesModule,
       ),
   },
   {
