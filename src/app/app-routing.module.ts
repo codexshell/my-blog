@@ -20,6 +20,11 @@ const routes: Routes = [
     redirectTo: 'articles',
   },
   {
+    path: 'posts',
+    loadChildren: () =>
+      import('./posts/posts.module').then((m) => m.PostsModule),
+  },
+  {
     path: '**',
     redirectTo: 'articles',
   },
