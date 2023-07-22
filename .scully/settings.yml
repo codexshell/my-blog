@@ -1,0 +1,11 @@
+identifier: lbk4d0a6lfhbuarc
+appPort: 1864
+staticPort: 1668
+reloadPort: 2667
+hostName: localhost
+projectName: my-blog
+homeFolder: /home/silva/projects/angular/my-blog
+distFolder: dist/my-blog
+outDir: /home/silva/projects/angular/my-blog/dist/static
+handle404: ''
+allowErrorCollect: true

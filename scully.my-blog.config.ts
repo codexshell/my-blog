@@ -1,4 +1,5 @@
 import { ScullyConfig } from '@scullyio/scully';
+import '@scullyio/scully-plugin-puppeteer';
 
 export const config: ScullyConfig = {
   projectRoot: './src',
@@ -8,7 +9,8 @@ export const config: ScullyConfig = {
     '/posts/:id': {
       type: 'contentFolder',
       id: {
-        folder: "./mdfiles"
-      }
-    },},
+        folder: './mdfiles',
+      },
+    },
+  },
 };
